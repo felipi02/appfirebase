@@ -73,6 +73,17 @@ export default function Index() {
         </Pressable>
       </Link>
 
+      <Link href="/contato" asChild>
+        <Pressable>
+          <Text>contato</Text>
+        </Pressable>
+      </Link>
+      <Link href="/notificacao" asChild>
+        <Pressable>
+          <Text>notificação</Text>
+        </Pressable>
+      </Link>
+
 
       <Pressable onPress={() => setModalVisible(true)}
         style={{ backgroundColor: "#FF3737", padding: 15, borderRadius: 10, width: '95%', marginBottom: 10 }}  >
